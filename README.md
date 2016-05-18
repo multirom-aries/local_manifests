@@ -1,5 +1,7 @@
-# local_manifests
+# local_manifests for xiaomi aries(MI-2S)
 
-$ce $(TOP_ANDROID_SRC)
+```
+$cd $(TOP_ANDROID_SRC)
 $git clone https://github.com/multirom-aries/local_manifests.git -b master .repo/local_manifests
-$repo sync 
+$repo sync
+```
