@@ -6,4 +6,5 @@
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
   <project name="android_external_stlport" path="external/stlport" remote="multirom-aries" revision="cm-13.0" />
   <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
+  <remove-project name="platform/cts" />
 </manifest>
