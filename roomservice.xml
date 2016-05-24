@@ -6,5 +6,13 @@
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
   <project name="android_external_stlport" path="external/stlport" remote="multirom-aries" revision="cm-13.0" />
   <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
+  <!-- Remove some unused repo -->
   <remove-project name="platform/cts" />
+  <!-- if you build in mac, just remove  it -->
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
 </manifest>
