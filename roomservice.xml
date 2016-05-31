@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
+  <remote fetch="https://github.com/MoKee" name="mokee" />
+  <project name="android_bootable_recovery-twrp" path="bootable/recovery-twrp" remote="mokee" revision="mkm" />
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="cm-13.0-caf" />
   <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="cm-13.0-caf" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
