@@ -4,6 +4,7 @@
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="mkm-dev" />
   <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="cm-13.0-caf" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
+  <project name="android_hardware_ril_mi2s" path="hardware/ril-caf-mi2s" remote="multirom-aries" revision="mkm-caf-mi2s" />
   <remove-project name="platform/cts" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
