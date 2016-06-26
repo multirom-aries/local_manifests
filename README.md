@@ -2,6 +2,6 @@
 
 ```
 $cd $(TOP_ANDROID_SRC)
-$git clone https://github.com/multirom-aries/local_manifests.git -b phablet-vivid .repo/multirom_aries
+$git clone https://github.com/multirom-aries/local_manifests.git -b phablet-vivid .repo/local_manifests/
 $repo sync
 ```
