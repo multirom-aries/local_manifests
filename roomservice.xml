@@ -3,5 +3,4 @@
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="mkm-mrom" />
   <project name="android_device_xiaomi_aries-kernel" path="device/xiaomi/aries-kernel" remote="multirom-aries" revision="phablet-vivid" />
-  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
 </manifest>
