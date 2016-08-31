@@ -6,5 +6,5 @@
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
   <remove-project name="toolchain/binutils" />
   <remove-project name="platform/hardware/qcom/audio" />
-  <project name="android_hardware_qcom_audio_mako-nougat" path="hardware/qcom/audio" revision="nougat" />
+  <project name="android_hardware_qcom_audio_mako-nougat" path="hardware/qcom/audio" remote="multirom-aries" revision="nougat" />
 </manifest>
