@@ -3,6 +3,8 @@
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="android-7.0" />
   <project name="android_device_xiaomi_aries-kernel" path="device/xiaomi/aries-kernel" remote="multirom-aries" revision="android-7.0" />
-  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
+  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
   <remove-project name="toolchain/binutils" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project name="android_hardware_qcom_audio_mako-nougat" path="hardware/qcom/audio" revision="nougat" />
 </manifest>
