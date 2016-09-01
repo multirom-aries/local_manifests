@@ -7,4 +7,6 @@
   <remove-project name="toolchain/binutils" />
   <remove-project name="platform/hardware/qcom/audio" />
   <project name="android_hardware_qcom_audio_mako-nougat" path="hardware/qcom/audio" remote="multirom-aries" revision="nougat" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="multirom-aries" revision="nougat-release" />
 </manifest>
