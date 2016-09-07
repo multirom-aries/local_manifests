@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
-  <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="android-7.0" />
-  <project name="android_device_xiaomi_aries-kernel" path="device/xiaomi/aries-kernel" remote="multirom-aries" revision="android-7.0" />
-  <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="staging/cm-14.0" />
+  <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="cm-14.0-caf" />
+  <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="android-7.0" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
   <remove-project name="toolchain/binutils" />
   <project name="android_external_busybox_aries" path="external/busybox" remote="multirom-aries" revision="android-7.0" />
