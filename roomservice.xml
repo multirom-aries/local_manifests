@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
+  <remote fetch="https://bitbucket.org/" name="bb" />
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="cm-14.0-caf-new" />
   <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="android-7.0" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
   <remove-project name="toolchain/binutils" />
   <project name="android_external_busybox_aries" path="external/busybox" remote="multirom-aries" revision="android-7.0" />
   <project name="CyanogenMod/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960" remote="github" revision="staging/cm-14.0" />
+  <project name="UBERTC/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
+  <project name="UBERTC/arm-linux-androideabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3" remote="bb" revision="master" />
 </manifest>
