@@ -6,4 +6,6 @@
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
   <remove-project name="toolchain/binutils" />
   <project name="android_external_busybox_aries" path="external/busybox" remote="multirom-aries" revision="android-7.0" />
+  <project name="CyanogenMod/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960" remote="github" revision="staging/cm-14.0" />
+  <project name="UBERTC/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
 </manifest>
