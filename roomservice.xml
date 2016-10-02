@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
+  <remote fetch="https://github.com" name="github" />
   <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="android-7.0" />
   <project name="android_device_xiaomi_aries-kernel" path="device/xiaomi/aries-kernel" remote="multirom-aries" revision="android-7.0" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
@@ -10,4 +11,5 @@
   <remove-project name="platform/hardware/libhardware" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="multirom-aries" revision="nougat-release" />
   <project name="android_external_busybox_aries" path="external/busybox" remote="multirom-aries" revision="android-7.0" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-14.0" />
 </manifest>
