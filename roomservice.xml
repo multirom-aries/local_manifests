@@ -24,15 +24,11 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
   <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-  
-  <!-- Remove MIPS toolchain -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
   
   <!-- Remove unused device -->
   <remove-project name="device/generic/goldfish" />
@@ -45,7 +41,6 @@
   <remove-project name="device/generic/x86_64" />
   
   <!-- Remove Intel platform support -->
-  <remove-project name="platform/hardware/bsp/intel" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
