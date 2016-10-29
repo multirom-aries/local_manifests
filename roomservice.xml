@@ -5,6 +5,11 @@
   <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="ivanbase-kexec" />
   <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="mkm" />
 
+  
+  <!-- add mokee depen -->
+  <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
+  <project name="MoKee/android_external_stlport" path="external/stlport" remote="mokee" />
+  
   <remove-project name="platform/cts" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
