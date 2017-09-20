@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/multirom-aries" name="multirom-aries" />
-  <remote fetch="https://bitbucket.org/" name="bb" />
-  <project name="android_device_xiaomi_aries" path="device/xiaomi/aries" remote="multirom-aries" revision="cm-14.0-caf" />
-  <project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="multirom-aries" revision="cm-14.0-caf" />
-  <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="multirom-aries" revision="nougat" />
+  <remote fetch="https://bitbucket.org/" name="bitbucket" />
+  <project name="aries-dev-playground/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="lineage-15.0" />
+  <project name="aries-dev-playground/android_device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+  <project name="multirom-aries/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="cm-14.0-caf" />
+  <project name="aries-dev-playground/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.0" />
   <!--
        <remove-project name="toolchain/binutils" />
   -->
-  <project name="android_external_busybox_aries" path="external/busybox" remote="multirom-aries" revision="android-7.0" />
+  <project name="multirom-aries/android_external_busybox_aries" path="external/busybox" remote="github" revision="android-7.0" />
   <project name="LineageOS/android_hardware_qcom_msm8960" path="hardware/qcom/msm8960" remote="github" revision="staging/cm-14.0" />
-  
+
   <!-- Remove aosp arm-eabi-4.8, use our own fork -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="multirom-aries" revision="master" />
-  
-  <project name="UBERTC/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bb" revision="master" />
+  <project name="multirom-aries/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
+
+  <project name="UBERTC/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="bitbucket" revision="master" />
   <!-- use twrp source from MoKee project -->
   <remove-project name="LineageOS/android_bootable_recovery" />
   <project name="MoKee/android_bootable_recovery-twrp" path="bootable/recovery" remote="github" revision="mkn" />
-  
+
+  <project name="LineageOS/android_vendor_qcom_opensource_dpm" path="platform/vendor/qcom-opensource/dpm" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_prebuilts_cmsdk" path="prebuilts/cmsdk" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_lineage-sdk" path="vendor/cmsdk" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_external_cmsdk-api-coverage" path="external/cmsdk-api-coverage" remote="github" revision="cm-14.1" />
   <!-- Remove mac os -> darwin-x86 support
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
@@ -33,8 +38,8 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
      -->
-  
   <!-- Remove unused device -->
+  <!--
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -43,7 +48,8 @@
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  
+     -->
+
   <!-- Remove Intel platform support -->
   <!--
   <remove-project name="platform/hardware/intel/audio_media" />
@@ -60,7 +66,8 @@
   <remove-remove-project name="CyanogenMod/android_hardware_intel_img_psb_headers" />
   <remove-remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
   <remove-remove-project name="platform/hardware/intel/sensors" />
-  -->
+     -->
+  <!--
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -74,4 +81,5 @@
   <remove-project name="platform/hardware/intel/img/hwcomposer" />
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
+     -->
 </manifest>
